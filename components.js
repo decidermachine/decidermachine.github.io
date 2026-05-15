@@ -94,7 +94,7 @@ const footerHTML = `
       </div>
       
       <div class="footer-bottom">
-        <p>&copy; 2024 Decider Machine. All rights reserved. | Your #1 Online Decision Maker</p>
+        <p>&copy; 2026 Decider Machine. All rights reserved. | Your #1 Online Decision Maker</p>
         <div class="footer-links">
           <a href="#" id="privacyLinkBottom">Privacy</a>
           <a href="#" id="termsLinkBottom">Terms</a>
@@ -254,7 +254,7 @@ const modalStyles = `
 // Privacy Policy Content
 const privacyContent = `
   <h3>Privacy Policy</h3>
-  <p>Last updated: December 2024</p>
+  <p>Last updated: December 2026</p>
   
   <p>Welcome to <strong>Decider Machine</strong> ("we", "our", "us"). We are committed to protecting your privacy and providing a safe online experience. This Privacy Policy explains how we handle information when you use our website <strong>decidermachine.online</strong>.</p>
   
@@ -286,7 +286,7 @@ const privacyContent = `
 // Terms of Service Content
 const termsContent = `
   <h3>Terms of Service</h3>
-  <p>Last updated: December 2024</p>
+  <p>Last updated: December 2026</p>
   
   <h3>1. Acceptance of Terms</h3>
   <p>By accessing and using <strong>Decider Machine</strong> (decidermachine.online), you agree to be bound by these Terms of Service. If you disagree with any part of these terms, please do not use our website.</p>
