@@ -79,19 +79,16 @@ const footerHTML = `
             <li><a href="#use-cases">Use Cases</a></li>
             <li><a href="#features">Features</a></li>
             <li><a href="#tips">Decision Tips</a></li>
-            <li><a href="#faq">FAQ</a></li>
-            <li><a href="#blog">📝 Blog</a></li>
-            <li><a href="#about">👋 About Us</a></li>
+            <li><a href="#faq">FAQ</a></li>            
           </ul>
         </div>
         
         <div class="footer-col">
           <h4>Connect</h4>
           <ul>
-            <li><a href="#" id="twitterLink">🐦 Twitter</a></li>
-            <li><a href="#" id="instagramLink">📸 Instagram</a></li>
-            <li><a href="#" id="githubLink">💻 GitHub</a></li>
-            <li><a href="#" id="feedbackLink">💬 Send Feedback</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="contact">Contact</a></li>      
+            
           </ul>
         </div>
       </div>
@@ -99,8 +96,8 @@ const footerHTML = `
       <div class="footer-bottom">
         <p>&copy; 2026 Decider Machine. All rights reserved. | Your #1 Online Decision Maker</p>
         <div class="footer-links">
-          <a href="#accessibility">Accessibility</a>
-          <a href="#sitemap">Sitemap</a>
+          <a href="privacy">Privacy Policy</a>
+          <a href="terms">Terms of Use</a>
         </div>
       </div>
     </div>
