@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Decider Machine</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+    <style>
+        .about-section { padding: 120px 0 80px; }
+        .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+        .about-image { position: relative; border-radius: var(--radius); overflow: hidden; border: 2px solid var(--primary); box-shadow: var(--shadow-glow); }
+        .about-image img { width: 100%; display: block; filter: grayscale(20%); }
+        .about-text h1 { font-family: var(--font-display); font-size: 3rem; margin-bottom: 20px; color: var(--white); }
+        .about-text h1 span { color: var(--primary); }
+        .about-text p { color: var(--text-muted); line-height: 1.8; margin-bottom: 20px; font-size: 1.1rem; }
+        .expert-badge { display: inline-block; background: rgba(255, 77, 109, 0.1); color: var(--primary); padding: 5px 15px; border-radius: 50px; font-weight: 700; margin-bottom: 15px; font-size: 0.9rem; border: 1px solid var(--primary); }
+        @media (max-width: 900px) { .about-grid { grid-template-columns: 1fr; text-align: center; } }
+    </style>
+</head>
+<body>
+    <div id="header-root"></div>
+
+    <section class="about-section container">
+        <div class="about-grid">
+            <div class="about-text">
+                <span class="expert-badge">Web Developer & SEO Expert</span>
+                <h1>Hi, I'm <span>Waqas Bukhari</span></h1>
+                <p>I am a professional web developer and SEO expert with a passion for building interactive utility tools that solve everyday problems. Decider Machine was born out of the desire to make the process of making choices fun, fast, and completely unbiased.</p>
+                <p>With a deep focus on user experience and technical optimization, I've designed this platform to be lightweight, privacy-focused, and accessible on any device. Whether you're choosing what to eat or picking a winner for a giveaway, my tools are built to provide truly random results through clean, efficient code.</p>
+                <p>When I'm not developing tools like Decider Machine, I help businesses grow their online presence through advanced SEO strategies and high-performance web applications.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800" alt="Waqas Bukhari - Web Developer">
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-root"></div>
+    <script src="components.js"></script>
+    <script>initComponents();</script>
+</body>
+</html>
