@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Decider Machine – #1 Online Decision Maker Tool | decidermachine.online</title>
+  <meta name="description" content="Make any decision in seconds! Decider Machine is the ultimate online decision maker with Spin Wheel, Yes/No Oracle, Dice Roller, Coin Flip & more. Free, fast & fun!" />
+  <meta name="keywords" content="decider machine, decision maker, choice maker, easy decision maker, random decision maker, online decider, decision maker tool, spin wheel, yes no decision, dice roller" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://decidermachine.online/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://decidermachine.online/" />
+  <meta property="og:title" content="Decider Machine – Fun Online Decision Maker" />
+  <meta property="og:description" content="Spin the wheel, flip a coin, or roll the dice. Let the Decider Machine make your choices fast and fun!" />
+  <meta property="og:image" content="https://decidermachine.online/og-image.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Decider Machine – Online Decision Maker" />
+  <meta name="twitter:description" content="The ultimate free online decision maker. Spin wheel, yes/no, dice and more!" />
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Decider Machine",
+    "url": "https://decidermachine.online",
+    "description": "A fun, free online decision maker tool featuring a spin wheel, yes/no oracle, dice roller, coin flip, and more to help you make any decision instantly.",
+    "applicationCategory": "UtilityApplication",
+    "operatingSystem": "All",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "featureList": [
+      "Spin Wheel Decision Maker",
+      "Yes/No Oracle",
+      "Dice Roller",
+      "Coin Flip",
+      "Choice Picker",
+      "Decision Generator"
+    ],
+    "browserRequirements": "Requires JavaScript",
+    "creator": {
+      "@type": "Organization",
+      "name": "Decider Machine",
+      "url": "https://decidermachine.online"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Decider Machine?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Decider Machine is a free online decision maker tool that helps you make choices using fun methods like spin wheels, yes/no oracles, dice rolls, and more."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does the random decision maker work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Simply enter your options, choose your decision method (spin wheel, dice, coin flip, etc.), and click to get a random decision instantly."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Decider Machine free to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes! Decider Machine is completely free to use with no sign-up required."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="header-root"></div>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-bg-blobs">
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+      <div class="blob blob3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">🎯 The #1 Online Decider</div>
+      <h1 class="hero-title">
+        Can't Decide? <br />
+        <span class="highlight">Let Us Decide!</span>
+      </h1>
+      <p class="hero-sub">The ultimate <strong>decision maker tool</strong> — spin wheels, flip coins, roll dice, and more. Make any choice in seconds. Free, fast &amp; incredibly fun!</p>
+      <div class="hero-cta-group">
+        <a href="#tools" class="btn btn-primary pulse-btn">🎲 Start Deciding!</a>
+        <a href="#how-it-works" class="btn btn-ghost">How It Works →</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">5M+</span><span class="stat-label">Decisions Made</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">8</span><span class="stat-label">Decision Tools</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Free Forever</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="floating-cards">
+        <div class="fcard fc1">🎡 Spin Wheel</div>
+        <div class="fcard fc2">🪙 Coin Flip</div>
+        <div class="fcard fc3">🎲 Dice Roll</div>
+        <div class="fcard fc4">✨ Yes / No</div>
+        <div class="fcard fc5">🃏 Pick Card</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOOLS SECTION -->
+  <section class="tools-section" id="tools">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">🛠️ Decision Tools</span>
+        <h2>Choose Your Decision Method</h2>
+        <p>Eight powerful ways to make any decision — from quick coin flips to custom spin wheels.</p>
+      </div>
+      <div class="tool-tabs">
+        <button class="tab-btn active" data-tool="wheel">🎡 Spin Wheel</button>
+        <button class="tab-btn" data-tool="yesno">✨ Yes / No</button>
+        <button class="tab-btn" data-tool="dice">🎲 Dice</button>
+        <button class="tab-btn" data-tool="coin">🪙 Coin Flip</button>
+        <button class="tab-btn" data-tool="list">📋 List Picker</button>
+        <button class="tab-btn" data-tool="number">🔢 Number</button>
+        <button class="tab-btn" data-tool="cards">🃏 Cards</button>
+        <button class="tab-btn" data-tool="magic8">🎱 Magic 8</button>
+      </div>
+
+      <!-- SPIN WHEEL -->
+      <div class="tool-panel active" id="tool-wheel">
+        <div class="tool-layout">
+          <div class="wheel-area">
+            <div class="wheel-container">
+              <div class="wheel-pointer">▼</div>
+              <canvas id="wheelCanvas" width="380" height="380"></canvas>
+            </div>
+            <button class="btn btn-primary spin-btn" id="spinBtn">🎡 SPIN!</button>
+          </div>
+          <div class="wheel-controls">
+            <h3>Add Your Options</h3>
+            <div class="option-input-group">
+              <input type="text" id="wheelInput" placeholder="Type an option..." maxlength="40" />
+              <button class="btn btn-add" id="addOptionBtn">+ Add</button>
+            </div>
+            <ul class="options-list" id="optionsList"></ul>
+            <div class="wheel-actions">
+              <button class="btn btn-sm btn-ghost" id="clearWheelBtn">🗑️ Clear All</button>
+              <button class="btn btn-sm btn-ghost" id="shuffleWheelBtn">🔀 Shuffle</button>
+            </div>
+            <div class="result-box hidden" id="wheelResult">
+              <div class="result-emoji">🎉</div>
+              <div class="result-label">The wheel chose:</div>
+              <div class="result-value" id="wheelResultText"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- YES / NO -->
+      <div class="tool-panel" id="tool-yesno">
+        <div class="yesno-area">
+          <div class="oracle-orb" id="oracleOrb">
+            <div class="orb-inner">
+              <div class="orb-text" id="orbText">Ask Me<br/>Anything</div>
+            </div>
+          </div>
+          <div class="yesno-input-wrap">
+            <input type="text" id="questionInput" placeholder="Type your question here..." class="question-input" />
+            <button class="btn btn-primary" id="askOracleBtn">✨ Ask the Oracle!</button>
+          </div>
+          <div class="yesno-result hidden" id="yesnoResult">
+            <div class="yesno-answer" id="yesnoAnswer"></div>
+            <div class="yesno-msg" id="yesnoMsg"></div>
+          </div>
+          <div class="quick-btns">
+            <button class="btn btn-yes" id="quickYes">👍 YES</button>
+            <button class="btn btn-no" id="quickNo">👎 NO</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- DICE -->
+      <div class="tool-panel" id="tool-dice">
+        <div class="dice-area">
+          <div class="dice-selector">
+            <label>Number of Dice:</label>
+            <div class="dice-count-btns">
+              <button class="dice-count-btn active" data-count="1">1</button>
+              <button class="dice-count-btn" data-count="2">2</button>
+              <button class="dice-count-btn" data-count="3">3</button>
+              <button class="dice-count-btn" data-count="4">4</button>
+              <button class="dice-count-btn" data-count="5">5</button>
+              <button class="dice-count-btn" data-count="6">6</button>
+            </div>
+          </div>
+          <div class="dice-selector">
+            <label>Dice Type:</label>
+            <div class="dice-type-btns">
+              <button class="dice-type-btn active" data-sides="6">D6</button>
+              <button class="dice-type-btn" data-sides="4">D4</button>
+              <button class="dice-type-btn" data-sides="8">D8</button>
+              <button class="dice-type-btn" data-sides="10">D10</button>
+              <button class="dice-type-btn" data-sides="12">D12</button>
+              <button class="dice-type-btn" data-sides="20">D20</button>
+            </div>
+          </div>
+          <div class="dice-display" id="diceDisplay">
+            <div class="die" id="die1"><span>?</span></div>
+          </div>
+          <button class="btn btn-primary" id="rollDiceBtn">🎲 Roll Dice!</button>
+          <div class="dice-total" id="diceTotal"></div>
+        </div>
+      </div>
+
+      <!-- COIN FLIP -->
+      <div class="tool-panel" id="tool-coin">
+        <div class="coin-area">
+          <div class="coin-wrap">
+            <div class="coin" id="coinEl">
+              <div class="coin-face heads">H</div>
+              <div class="coin-face tails">T</div>
+            </div>
+          </div>
+          <div class="coin-labels">
+            <input type="text" id="headsLabel" placeholder="Heads label..." value="Heads" maxlength="20" />
+            <input type="text" id="tailsLabel" placeholder="Tails label..." value="Tails" maxlength="20" />
+          </div>
+          <button class="btn btn-primary" id="flipCoinBtn">🪙 Flip Coin!</button>
+          <div class="coin-result hidden" id="coinResult">
+            <div class="coin-result-text" id="coinResultText"></div>
+            <div class="coin-streak" id="coinStreak"></div>
+          </div>
+          <div class="coin-history" id="coinHistory"></div>
+        </div>
+      </div>
+
+      <!-- LIST PICKER -->
+      <div class="tool-panel" id="tool-list">
+        <div class="list-area">
+          <h3>Random Choice Picker</h3>
+          <p class="tool-desc">Enter your options (one per line) and let the decision maker pick for you!</p>
+          <textarea id="listTextarea" placeholder="Pizza&#10;Burger&#10;Sushi&#10;Tacos&#10;Pasta" rows="8"></textarea>
+          <div class="list-options-row">
+            <label><input type="checkbox" id="removePicked" /> Remove picked item</label>
+            <label><input type="checkbox" id="pickMultiple" /> Pick multiple</label>
+            <input type="number" id="pickCount" value="1" min="1" max="20" style="width:60px" />
+          </div>
+          <button class="btn btn-primary" id="pickFromListBtn">🎯 Pick for Me!</button>
+          <div class="list-result hidden" id="listResult">
+            <div class="list-result-label">The decision maker chose:</div>
+            <div class="list-result-value" id="listResultValue"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- NUMBER GENERATOR -->
+      <div class="tool-panel" id="tool-number">
+        <div class="number-area">
+          <h3>Random Number Decision</h3>
+          <p class="tool-desc">Generate a random number between any range for your decision making.</p>
+          <div class="number-range">
+            <div class="range-field">
+              <label>Min</label>
+              <input type="number" id="numMin" value="1" />
+            </div>
+            <div class="range-sep">to</div>
+            <div class="range-field">
+              <label>Max</label>
+              <input type="number" id="numMax" value="100" />
+            </div>
+          </div>
+          <div class="number-opts">
+            <label><input type="checkbox" id="numExcludeOdd" /> Only Even</label>
+            <label><input type="checkbox" id="numMultiPick" /> Pick multiple</label>
+            <input type="number" id="numPickCount" value="1" min="1" max="10" style="width:55px" />
+          </div>
+          <button class="btn btn-primary" id="genNumberBtn">🔢 Generate!</button>
+          <div class="number-result hidden" id="numberResult">
+            <div class="number-display" id="numberDisplay"></div>
+          </div>
+          <div class="number-history" id="numberHistory"></div>
+        </div>
+      </div>
+
+      <!-- CARD PICKER -->
+      <div class="tool-panel" id="tool-cards">
+        <div class="cards-area">
+          <h3>Random Card Decision</h3>
+          <p class="tool-desc">Draw a random playing card from a standard deck. Perfect for decision games!</p>
+          <div class="card-display" id="cardDisplay">
+            <div class="playing-card" id="playingCard">
+              <div class="card-back">🂠</div>
+              <div class="card-front hidden">
+                <div class="card-value" id="cardValue"></div>
+                <div class="card-suit" id="cardSuit"></div>
+              </div>
+            </div>
+          </div>
+          <div class="cards-btns">
+            <button class="btn btn-primary" id="drawCardBtn">🃏 Draw Card!</button>
+            <button class="btn btn-ghost btn-sm" id="resetDeckBtn">🔄 Reset Deck</button>
+          </div>
+          <div class="deck-info" id="deckInfo">52 cards remaining</div>
+          <div class="drawn-cards" id="drawnCards"></div>
+        </div>
+      </div>
+
+      <!-- MAGIC 8 BALL -->
+      <div class="tool-panel" id="tool-magic8">
+        <div class="magic8-area">
+          <div class="m8-ball" id="m8Ball">
+            <div class="m8-inner">
+              <div class="m8-text" id="m8Text">🎱</div>
+            </div>
+          </div>
+          <input type="text" id="m8Question" placeholder="Ask your question..." class="question-input" />
+          <button class="btn btn-primary" id="m8Btn">🎱 Ask the 8 Ball!</button>
+          <div class="m8-history" id="m8History"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">⚡ Simple Process</span>
+        <h2>How the Decider Machine Works</h2>
+        <p>Making decisions has never been easier or more fun. Here's your 3-step guide:</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-num">01</div>
+          <div class="step-icon">✏️</div>
+          <h3>Enter Your Options</h3>
+          <p>Type in your choices, questions, or options. Our easy decision maker accepts anything — from lunch options to life choices.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">02</div>
+          <div class="step-icon">🎯</div>
+          <h3>Pick Your Method</h3>
+          <p>Choose from our spin wheel, yes/no oracle, dice roller, coin flip, or any of our other quick decision maker tools.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">03</div>
+          <div class="step-icon">🎉</div>
+          <h3>Get Your Decision!</h3>
+          <p>Watch the magic happen! Your random decision is generated instantly. Accept it, re-spin, or try a different decision-maker tool.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- USE CASES -->
+  <section class="use-cases" id="use-cases">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">💡 Use Cases</span>
+        <h2>What Can You Decide?</h2>
+        <p>From trivial to important — the Decider Machine handles it all.</p>
+      </div>
+      <div class="cases-grid">
+        <div class="case-card">
+          <div class="case-icon">🍕</div>
+          <h3>What to Eat?</h3>
+          <p>Can't agree on where to eat? Let our <strong>online decision maker</strong> pick the restaurant or cuisine for your group.</p>
+        </div>
+        <div class="case-card">
+          <div class="case-icon">🎮</div>
+          <h3>What to Play?</h3>
+          <p>Too many game options? Use our <strong>random decision generator</strong> to pick your next game night activity.</p>
+        </div>
+        <div class="case-card">
+          <div class="case-icon">🎬</div>
+          <h3>What to Watch?</h3>
+          <p>End the Netflix debate forever. Add movies or shows and let the <strong>choice picker</strong> decide what's on tonight.</p>
+        </div>
+        <div class="case-card">
+          <div class="case-icon">✈️</div>
+          <h3>Where to Travel?</h3>
+          <p>Spin the wheel between destinations! Our <strong>decision picker</strong> takes the stress out of travel planning.</p>
+        </div>
+        <div class="case-card">
+          <div class="case-icon">💼</div>
+          <h3>Work Decisions</h3>
+          <p>Prioritize tasks, assign responsibilities, or settle team disputes with our fair <strong>random decision maker</strong>.</p>
+        </div>
+        <div class="case-card">
+          <div class="case-icon">🎓</div>
+          <h3>Study Choices</h3>
+          <p>Pick study topics, assign quiz questions, or randomly select students with our <strong>choice decider</strong>.</p>
+        </div>
+        <div class="case-card">
+          <div class="case-icon">🎁</div>
+          <h3>Gift Ideas</h3>
+          <p>Narrow down gift options or assign Secret Santa with our <strong>option generator</strong>. Fun for the whole group!</p>
+        </div>
+        <div class="case-card">
+          <div class="case-icon">🏃</div>
+          <h3>Exercise Routine</h3>
+          <p>Randomize your workout! Let the <strong>decision generator</strong> pick today's exercise and keep things exciting.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">✨ Why Us</span>
+        <h2>Why Choose Decider Machine?</h2>
+        <p>The smartest, most fun online decider — packed with features you'll love.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feat-icon">⚡</div>
+          <h3>Lightning Fast</h3>
+          <p>Get your decision in under a second. No loading, no waiting — instant results every time you use our quick decision maker.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feat-icon">🎨</div>
+          <h3>Fully Customizable</h3>
+          <p>Add unlimited options, customize labels, adjust colors, and personalize your wheel. Your <strong>choice maker</strong>, your rules.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feat-icon">📱</div>
+          <h3>Mobile Friendly</h3>
+          <p>Make decisions on the go! Our <strong>online decision maker</strong> works perfectly on phones, tablets, and desktops.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feat-icon">🆓</div>
+          <h3>100% Free</h3>
+          <p>No sign-up, no subscription, no hidden fees. The Decider Machine is and always will be completely free to use.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feat-icon">🔒</div>
+          <h3>Private & Secure</h3>
+          <p>Your options and decisions stay on your device. We don't store or share your data — completely private decision making.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feat-icon">🎲</div>
+          <h3>Truly Random</h3>
+          <p>Powered by cryptographically random algorithms. Every spin, flip, and roll is genuinely random and unbiased.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DECISION TIPS SECTION -->
+  <section class="tips-section" id="tips">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">🧠 Decision Tips</span>
+        <h2>Making Better Decisions with a Decision Maker Tool</h2>
+        <p>Smart tips to get the most out of your online decision making experience.</p>
+      </div>
+      <div class="tips-grid">
+        <div class="tip-card">
+          <div class="tip-num">💭</div>
+          <h3>The Coin Test</h3>
+          <p>When you flip a coin, notice your immediate reaction. If you feel relief or disappointment — that's your gut telling you what it really wants. Use our <strong>decision maker online</strong> as a gut-check tool!</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-num">📝</div>
+          <h3>Narrow First</h3>
+          <p>Too many options? Start with a list of 10, spin the wheel to eliminate half, then repeat. Our <strong>easy decision maker wheel</strong> is great for bracket-style elimination decisions.</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-num">⏰</div>
+          <h3>Set a Timer</h3>
+          <p>Give yourself 2 minutes to think, then use the <strong>decision maker generator</strong>. Removing endless deliberation actually reduces stress and increases satisfaction with your choice.</p>
+        </div>
+        <div class="tip-card">
+          <div class="tip-num">🎯</div>
+          <h3>Use Yes/No for Big Choices</h3>
+          <p>Sometimes a simple yes or no is all you need. For big life decisions, ask the oracle — but remember, if you immediately want to re-ask, you already know your answer!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">❓ FAQ</span>
+        <h2>Frequently Asked Questions</h2>
+        <p>Everything you need to know about the Decider Machine.</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-q">What is a Decider Machine? <span class="faq-arrow">▼</span></button>
+          <div class="faq-a">
+            <p>A <strong>decider machine</strong> is an online tool that helps you make decisions quickly and randomly. Whether you're struggling to pick between two options or need a completely random choice from a long list, a decision maker removes the paralysis of overthinking and gives you a clear answer instantly.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">How does the random decision maker work? <span class="faq-arrow">▼</span></button>
+          <div class="faq-a">
+            <p>Our <strong>random decision maker</strong> uses a cryptographically random number generator to ensure completely unbiased results. For the spin wheel, the algorithm randomly determines the stopping point. For the yes/no oracle, dice, and other tools, genuine randomness ensures fair outcomes every single time.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Can I use this as an easy decision maker wheel? <span class="faq-arrow">▼</span></button>
+          <div class="faq-a">
+            <p>Absolutely! Our <strong>easy decision maker wheel</strong> lets you add up to unlimited options. Just type each choice, click Add, and hit Spin. The wheel will randomly land on one of your options. You can add, remove, or shuffle options at any time for a fresh spin.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Is Decider Machine free to use? <span class="faq-arrow">▼</span></button>
+          <div class="faq-a">
+            <p>Yes! Decider Machine is 100% free with no registration required. All tools — spin wheel, yes/no, dice, coin flip, card picker, and more — are completely free. There are no premium tiers, no ads disrupting your experience, and no hidden costs.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Can I use this to pick between two options? <span class="faq-arrow">▼</span></button>
+          <div class="faq-a">
+            <p>Definitely! Use the <strong>coin flip</strong> tool for a classic heads-or-tails decision, the <strong>Yes/No oracle</strong> for binary questions, or add just two options to the spin wheel. Our decision maker is perfect for picking between two options quickly.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Does the decision maker work on mobile? <span class="faq-arrow">▼</span></button>
+          <div class="faq-a">
+            <p>Yes! Our <strong>online decision maker</strong> is fully responsive and works on all devices — smartphones, tablets, and desktops. The touch-friendly interface makes it easy to spin wheels, flip coins, and make decisions on the go.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KEYWORD-RICH CONTENT SECTION -->
+  <section class="content-section" id="about">
+    <div class="container">
+      <div class="content-two-col">
+        <div class="content-col">
+          <h2>The Ultimate Online Decision Maker</h2>
+          <p>Welcome to <strong>Decider Machine</strong> — the internet's most fun and versatile <strong>online decision maker</strong>. Whether you're facing a simple everyday choice or a complex group decision, our suite of tools transforms the stress of choosing into a playful, satisfying experience.</p>
+          <p>Our <strong>choice maker</strong> tools have helped millions of people settle debates, make random selections, and overcome decision fatigue. From the classic <strong>easy decision maker wheel</strong> to the mystical Magic 8 Ball, there's a perfect tool for every situation.</p>
+          <p>Unlike other decision-making tools, Decider Machine combines <strong>true randomness</strong> with engaging visuals and animations — so every decision feels exciting, not robotic. It's the <strong>quick decision maker</strong> that actually makes decision-making fun!</p>
+        </div>
+        <div class="content-col">
+          <h2>Your Personal Choice Decider</h2>
+          <p>Need to <strong>make a decision online</strong> fast? Decider Machine is always ready. Our <strong>decision maker tool</strong> is browser-based, requires no installation, and works instantly on any device. Simply visit, enter your options, and let the magic happen.</p>
+          <p>The <strong>random decision generator</strong> at the core of every tool uses advanced algorithms to ensure completely unbiased results. Whether you're using the <strong>decision picker</strong> for serious choices or just having fun with friends, you can trust the outcome is genuinely random.</p>
+          <p>As your go-to <strong>make a decision for me</strong> platform, we're constantly adding new tools and features. The Decider Machine is more than a choice generator — it's a complete <strong>decision making online</strong> platform for individuals, families, teams, and classrooms.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-box">
+        <div class="cta-blobs">
+          <div class="cta-blob cb1"></div>
+          <div class="cta-blob cb2"></div>
+        </div>
+        <h2>Stop Overthinking.<br/>Start Deciding! 🎯</h2>
+        <p>Join millions of people who use Decider Machine every day to make faster, easier decisions. It's free, it's fun, and it's just a click away.</p>
+        <a href="#tools" class="btn btn-primary btn-lg pulse-btn">🎲 Use the Decider Machine Now!</a>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-root"></div>
+
+  <!-- Confetti canvas -->
+  <canvas id="confettiCanvas"></canvas>
+
+  <script src="components.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
