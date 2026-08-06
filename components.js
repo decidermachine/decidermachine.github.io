@@ -9,7 +9,7 @@ const headerHTML = `
     <div class="header-inner">
       <a href="/" class="logo">
         <span class="logo-emoji">⚡</span>
-        Decider<span>Machine</span>
+        Decision<span>Maker</span>
       </a>
       
       <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
@@ -53,7 +53,7 @@ const footerHTML = `
         <div class="footer-brand">
           <a href="/" class="logo">
             <span class="logo-emoji">⚡</span>
-            Decider<span>Machine</span>
+            Decision<span>Maker</span>
           </a>
           <p>The ultimate online decision maker tool. Make any choice in seconds — free, fast & fun!</p>
         </div>
